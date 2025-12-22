@@ -1,15 +1,29 @@
-# Golang Sandbox <img src="./assets/goinbox.jpg" width="40">
+# Golang Sandbox
 
-Este repositório é um sandbox para projetos e estudos em Golang. 
+Sandbox para estudos e experimentos com Go.
 
+## Projetos
 
+### go-job
+Sistema de agendamento de tarefas desenvolvido em Go.
 
-### Projetos de estudo:
+- **Repositório original:** [dev-araujo/go-job](https://github.com/dev-araujo/go-job) (arquivado)
+- **Localização:** `/go-job`
 
+---
 
+## Estrutura
 
-#### Autor 👷
+```
+golang-sandbox/
+├── README.md (este arquivo)
+└── go-job/ (job scheduler)
+```
 
-<img src="https://avatars.githubusercontent.com/u/97068163?v=4" width=120 />
+## Como usar
 
-[Adriano P Araujo](https://www.linkedin.com/in/araujocode/)
+Cada subpasta contém um projeto independente com seu próprio README e instruções.
+
+---
+
+**Nota:** Este repositório consolida múltiplos projetos de estudo em Go para facilitar organização e manutenção.
