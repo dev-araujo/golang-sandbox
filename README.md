@@ -4,11 +4,7 @@ Sandbox para estudos e experimentos com Go.
 
 ## Projetos
 
-### go-job
-Sistema de agendamento de tarefas desenvolvido em Go.
-
-- **Repositório original:** [dev-araujo/go-job](https://github.com/dev-araujo/go-job) (arquivado)
-- **Localização:** [/go-job](./go-job)
+- **go-job:** [/go-job](./go-job)
 - **Tecnologias:** Go, Gin, GORM, SQLite
 - **Descrição:** API REST para gerenciamento de vagas de emprego com operações CRUD
 
