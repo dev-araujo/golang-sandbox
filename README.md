@@ -14,14 +14,8 @@ Sandbox para estudos e experimentos com Go.
 
 ```
 golang-sandbox/
-├── README.md (este arquivo)
+├── README.md
 └── go-job/
-    ├── config/
-    ├── handler/
-    ├── router/
-    ├── schemas/
-    ├── main.go
-    └── go.mod
 ```
 
 ## Como usar
@@ -33,11 +27,7 @@ git clone https://github.com/dev-araujo/golang-sandbox.git
 cd golang-sandbox
 ```
 
-### Executar um projeto específico
-
-Cada subpasta contém um projeto independente com seu próprio README e instruções.
-
-#### Exemplo: go-job
+### Executar um projeto
 
 ```bash
 cd go-job
@@ -47,29 +37,15 @@ go run main.go
 
 A API estará disponível em `http://localhost:8080`.
 
-Consulte o README dentro de cada pasta para instruções detalhadas.
-
 ---
 
 ## Adicionar novos projetos
 
-Para adicionar um novo projeto de estudo em Go:
-
-1. Crie uma nova pasta na raiz do repositório
-2. Inicialize o módulo Go: `go mod init`
-3. Adicione o código do projeto
-4. Inclua um README.md com instruções
-5. Atualize este README principal com a descrição do novo projeto
+1. Crie uma nova pasta na raiz
+2. Inicialize: `go mod init`
+3. Adicione código e README
+4. Atualize este README
 
 ---
 
-## Tecnologias
-
-- **Go** - Linguagem de programação
-- **Gin** - Framework web
-- **GORM** - ORM para Go
-- **SQLite** - Banco de dados
-
----
-
-**Nota:** Este repositório consolida múltiplos projetos de estudo em Go para facilitar organização e manutenção.
+**Nota:** Este repositório consolida projetos de estudo em Go.
